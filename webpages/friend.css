@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#navbar
+{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .2rem 2rem;
+    box-shadow: 10px 10px 20px rgb(rgb(221, 181, 181), green, blue);
+    background-color:black;
+}
+.navbar .navbar-brand
+{
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(5, 231, 5);
+}
+#navbarSupportedContent a
+{
+    font-size: 30px;
+    color: rgb(245, 240, 240);
+    border-bottom: 2px solid transparent; */
+
+
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid rgb(15, 240, 71);
+
+}
+#navbarSupportedContent button{
+    background-color: rgb(38, 223, 14);
+    border-radius: 15px;
+    width: 5rem;
+    margin: 10PX;
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home{
+     font-size: 40px;
+    display: flex;
+    color: rgba(255, 255, 255, 0.842);
+    letter-spacing: 3px;
+    font-weight: 50;
+    font-family: verdana,Geneva, Tahoma,sans-serif;
+    flex-direction: column;  
+    height: 40px; 
+    background-image:  url(../nav\ back\ img.avif);
+    background-position: center;
+    background-size: COVER;
+    background-repeat: no-repeat;
+    /* text-shadow: 15px 10px 8px white; */
+
+
+} 
+.input{
+     font-size: 25px;
+    letter-spacing: 3px;
+    height: 3px;
+    width: 5px;
+    font-family:  verdana,Geneva, Tahoma,sans-serif;
+    
+
+} 
+.Home button{
+
+    font-size: 10px;
+    color: white;
+    letter-spacing: 3px;
+    font-family:  verdana,Geneva, Tahoma,sans-serif;
+    
+    background-color: green;
+    box-sizing: 5px 5px;
+    box-shadow: 2px 3px 10px lightgreen;
+}
+#about{
+    background-image: url(../HANDLOOM4.avif);
+    background-position: center;
+    background-size: COVER;
+    background-repeat: no-repeat;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.842);
+    letter-spacing: 3px;
+    font-family: verdana;
+}
+.about img{
+    height: 5px;
+    width: 5px;
+}
+.about h1{
+    font-weight: 800;
+    font-size: 50px;
+
+}
+#product{
+    font-size: 25px;
+    letter-spacing: 4px;
+    font-weight: 70;
+   
+    background: #e5e5e5;
+
+ }
+
+   
+.card{
+    width: 250px;
+    height: 300px;
+    background:whitesmoke;
+    border: none;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),inset 4PX 4PX 10PX white;
+
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px 60px;
+
+}
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,.3);
+    inset: -4px -4px 10px  white;
+    transition: .2s;
+}
+
+#product img{
+    width: 200px;
+    height: 200px;
+    padding: 5%;
+    text-align: center;  
+   
+}
+
+#product h1{
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight: 700;
+   
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact{
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    color: beige;
+
+}
+#contact img{
+    width: 200px;
+    height: 200px;
+    padding: 5%;
+    
+
+}
+#contact input{
+    margin: 5px 0px;
+}
+#contact text{
+    margin: 5px 0px;
+}
+footer{
+    width: 100%;
+    height: 30px;
+    background: white;
+    margin: -30px;
+    text-align: left;
+    
+}
+
+ body{
+    background-image:  url(../nav\ back\ img.avif);
+    background-position: center;
+    background-size: COVER;
+    background-repeat: no-repeat;
+    
+}

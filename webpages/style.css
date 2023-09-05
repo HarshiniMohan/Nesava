@@ -1,0 +1,15 @@
+table
+{
+    height: 50%;
+    width: 50%;
+}
+th{
+    background-color: red;
+
+}
+tr{
+    background-color:silver;
+}
+.cc{
+    background-color: gold;
+}
